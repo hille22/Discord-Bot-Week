@@ -1,0 +1,25 @@
+button{
+font-size: 50px;
+}
+button:hover{
+background-color: blue;
+}
+.container {
+    font-size: 100px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:  center;
+    align-items:center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%)
+  }
+  .container p{
+      padding: 25px;
+  }
+
+  .next{
+    border-right: 2px solid rgb(223, 223, 223);
+  }
